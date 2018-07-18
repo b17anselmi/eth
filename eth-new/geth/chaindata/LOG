@@ -1,0 +1,50 @@
+=============== Jul 17, 2018 (UTC) ===============
+12:38:42.529796 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:38:42.533058 db@open opening
+12:38:42.540589 version@stat F·[] S·0B[] Sc·[]
+12:38:42.542582 db@janitor F·2 G·0
+12:38:42.542643 db@open done T·9.561565ms
+12:42:11.181196 memdb@flush N·469461 S·60MiB
+12:42:11.628169 memdb@flush created L0@3 N·469461 S·34MiB "\x00\x00\xae..\x82\x88\x11,v8968":"\xff\xff\r..;t\x9f,v232396"
+12:42:11.628212 version@stat F·[1] S·34MiB[34MiB] Sc·[0.25]
+12:42:11.629787 memdb@flush committed F·1 T·448.143958ms
+12:42:11.637469 journal@remove removed @1
+12:42:25.959701 db@close closing
+12:42:25.960092 db@close done T·389.302µs
+=============== Jul 17, 2018 (UTC) ===============
+12:59:55.678593 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:59:55.679857 version@stat F·[1] S·34MiB[34MiB] Sc·[0.25]
+12:59:55.679869 db@open opening
+12:59:55.679911 journal@recovery F·1
+12:59:55.681163 journal@recovery recovering @2
+12:59:55.951415 memdb@flush created L0@4 N·82195 S·6MiB "\x00\x03\x9b..\xda\x04\x96,v497766":"\xff\xfcs..M\x87\x81,v478633"
+12:59:55.952859 version@stat F·[2] S·41MiB[41MiB] Sc·[0.50]
+12:59:55.959206 db@janitor F·4 G·0
+12:59:55.959223 db@open done T·279.345147ms
+12:59:55.977652 table@compaction L0·2 -> L1·0 S·41MiB Q·551660
+12:59:56.019765 table@build created L1@7 N·17730 S·2MiB "\x00\x00\xae..\x82\x88\x11,v8968":"!\xec\xca..G8E,v355726"
+12:59:56.067829 table@build created L1@8 N·17739 S·2MiB "!\xed\x16..\xda\x11\xeb,v44290":"C\xfb\x05..\xb4S\xa8,v19434"
+12:59:56.128940 table@build created L1@9 N·43961 S·2MiB "C\xfb=../\xf0\xe4,v261879":"H\xb1O..\x8a*\x8b,v368413"
+12:59:56.219231 table@build created L1@10 N·29303 S·2MiB "H\xb1P..\xa3S\xe5,v425026":"]\x82\xa8..\xe2\xd5\xe1,v39816"
+12:59:56.276610 table@build created L1@11 N·33371 S·2MiB "]\x82\xad..\xe1\xd6\x12,v406942":"b\x00\x00..\xfag_,v311802"
+12:59:56.339004 table@build created L1@12 N·26439 S·2MiB "b\x00\x00..\x9a\x9a\x89,v311804":"h\x00\x00..{\xfbf,v24423"
+12:59:56.375540 table@build created L1@13 N·25947 S·2MiB "h\x00\x00..\xfbft,v24421":"h\x00\x00..6\xc0\x94,v94215"
+12:59:56.413945 table@build created L1@14 N·26142 S·2MiB "h\x00\x00..\xc0\x94t,v94213":"h\x00\x00..\x87\u007f\x0f,v175921"
+12:59:56.473599 table@build created L1@15 N·26094 S·2MiB "h\x00\x00..\u007f\x0ft,v175919":"h\x00\x00..\x0e\x8d9,v269179"
+12:59:56.532783 table@build created L1@16 N·26154 S·2MiB "h\x00\x00..\x8d9t,v269177":"h\x00\x00..S\xea$,v346611"
+12:59:56.613201 table@build created L1@17 N·25969 S·2MiB "h\x00\x00..\xea$t,v346609":"h\x00\x00..\x87\xaa\x1e,v419136"
+12:59:56.669557 table@build created L1@18 N·24143 S·2MiB "h\x00\x00..\xaa\x1et,v419134":"h\x00\x00..A\xd3$,v480861"
+12:59:56.728043 table@build created L1@19 N·24161 S·2MiB "h\x00\x00..\xd3$t,v480859":"iTR..\xa7˝,v396179"
+12:59:56.807039 table@build created L1@20 N·40826 S·2MiB "iT\xaa..\xbb\x82\v,v37315":"r\x00\x00..p\rw,v324708"
+12:59:56.845243 table@build created L1@21 N·32456 S·2MiB "r\x00\x00..)\\\x17,v324710":"y\xad\x85..\x87\x05\xba,v407622"
+12:59:56.871051 table@build created L1@22 N·17619 S·2MiB "y\xad\xb6..9\xfe\x81,v223261":"\x9br\xde..\xbd\xf1\x11,v297951"
+12:59:56.896996 table@build created L1@23 N·17405 S·2MiB "\x9br\xde..\xfbH\xc1,v370895":"\xbc\xa5\xd5..\x90\xb3\x88,v234826"
+12:59:56.923162 table@build created L1@24 N·17235 S·2MiB "\xbc\xa5\xfd..\x9a\x0e\xa5,v452961":"\xdd[\x1b..\xc1\xb6\x1e,v144381"
+12:59:56.949540 table@build created L1@25 N·17684 S·2MiB "\xdd[\xbd..=q$,v226264":"\xff3\x8d..\x82k\xd1,v274542"
+12:59:56.952272 table@build created L1@26 N·424 S·51KiB "\xff3\x98..\xa0\n\x92,v395763":"\xff\xff\r..;t\x9f,v232396"
+12:59:56.952328 version@stat F·[0 20] S·39MiB[0B 39MiB] Sc·[0.00 0.39]
+12:59:56.966962 table@compaction committed F+18 S-2MiB Ke·0 D·60854 T·989.288403ms
+12:59:56.967797 table@remove removed @4
+12:59:56.972104 table@remove removed @3
+13:00:55.771748 db@close closing
+13:00:55.773544 db@close done T·1.799948ms
