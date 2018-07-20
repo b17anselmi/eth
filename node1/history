@@ -1,0 +1,8 @@
+loadScript("contract/Simple.abi")
+loadScript("contract/Simple.bin")
+loadScript("contract/Simple.abi")
+loadScript("contracts/Simple.abi")
+loadScript("contracts/Simple.bin")
+simple
+miner.stop
+miner.stop()
