@@ -1,0 +1,2 @@
+eth.getBlock('latest')
+admin.peers
