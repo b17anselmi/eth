@@ -1,2 +1,4 @@
 eth.getBlock('latest')
 admin.peers
+miner.start
+miner.start(1)
